@@ -1,0 +1,10 @@
+agents:
+  - user
+  - secretary
+  - orchestrator
+  - planner
+  - researcher
+  - developer
+  - tester
+  - reviewer
+  - security

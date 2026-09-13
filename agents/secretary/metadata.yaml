@@ -1,0 +1,13 @@
+layer:
+  id: layer.secretary
+  name: secretary
+  type: agent
+  parent: agents/
+  path: agents/secretary/
+  description: "비서 에이전트는 사용자 인터페이스, 요청 수집, 응답 포장 및 보고를 담당한다."
+  children:
+    - agent
+    - memory
+  metadata_version: 1
+  schema: "agent-layer"
+  created_at: 2026-09-13T00:00:00Z

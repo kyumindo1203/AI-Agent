@@ -1,0 +1,17 @@
+layer:
+  id: layer.orchestrator.children
+  name: children
+  type: group
+  parent: agents/orchestrator/
+  path: agents/orchestrator/children/
+  description: "오케스트레이터의 하위 전문 에이전트 집합. 계획, 연구, 구현, 테스트, 검토, 보안 역할을 포함한다."
+  children:
+    - planner
+    - researcher
+    - developer
+    - tester
+    - reviewer
+    - security
+  metadata_version: 1
+  schema: "agent-layer"
+  created_at: 2026-09-13T00:00:00Z

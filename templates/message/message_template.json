@@ -1,0 +1,18 @@
+{
+  "message_id": "MSG-YYYYMMDD-NNNN",
+  "task_id": "TASK-YYYYMMDD-NNNN",
+  "sender": "secretary",
+  "receiver": "orchestrator",
+  "message_type": "TASK",
+  "priority": "normal",
+  "context": {
+    "project_id": "PROJECT-YYYYMMDD-NNNN",
+    "project_name": "example-project",
+    "timestamp": "2026-09-13T10:00:00Z",
+    "trace_id": "TRACE-YYYYMMDD-NNNN"
+  },
+  "task": {},
+  "constraints": [],
+  "expected_output": {},
+  "status": "pending"
+}

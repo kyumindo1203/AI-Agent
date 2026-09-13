@@ -1,0 +1,16 @@
+{
+  "message_id": "MSG-0001",
+  "task_id": "TASK-0001",
+  "sender": "orchestrator",
+  "receiver": "specialist",
+  "message_type": "task_request",
+  "priority": "normal",
+  "context": "provide the task context",
+  "task": {
+    "task_id": "TASK-0001",
+    "title": "example task"
+  },
+  "constraints": [],
+  "expected_output": "",
+  "status": "pending"
+}

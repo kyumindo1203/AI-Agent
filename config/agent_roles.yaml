@@ -1,0 +1,17 @@
+secretary:
+  role: user_interface
+orchestrator:
+  role: workflow_manager
+  children:
+    planner:
+      role: requirements_and_plan
+    researcher:
+      role: external_or_internal_information
+    developer:
+      role: implementation
+    tester:
+      role: validation
+    reviewer:
+      role: review
+    security:
+      role: security_and_compliance

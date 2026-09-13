@@ -1,0 +1,21 @@
+{
+  "task_id": "TASK-YYYYMMDD-NNNN",
+  "parent_task_id": null,
+  "title": "task-title",
+  "objective": "task-objective",
+  "background": "project-context",
+  "inputs": [],
+  "allowed_resources": [],
+  "required_protocol_knowledge": [],
+  "constraints": [],
+  "dependencies": [],
+  "assigned_agent": "planner",
+  "priority": "normal",
+  "acceptance_criteria": [],
+  "expected_output": {
+    "type": "markdown",
+    "format": "report",
+    "fields": []
+  },
+  "status": "PENDING"
+}

@@ -1,0 +1,10 @@
+{
+  "error_id": "ERR-0001",
+  "task_id": "TASK-0001",
+  "agent": "specialist",
+  "failure": "example failure",
+  "reason": "example reason",
+  "current_state": "incomplete",
+  "attempted_resolution": "",
+  "required_action": ""
+}

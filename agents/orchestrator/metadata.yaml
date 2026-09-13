@@ -1,0 +1,14 @@
+layer:
+  id: layer.orchestrator
+  name: orchestrator
+  type: agent
+  parent: agents/
+  path: agents/orchestrator/
+  description: "오케스트레이터는 전체 작업 흐름을 조율하고 전문 에이전트로 메시지를 라우팅한다."
+  children:
+    - children
+    - memory
+    - agent
+  metadata_version: 1
+  schema: "agent-layer"
+  created_at: 2026-09-13T00:00:00Z

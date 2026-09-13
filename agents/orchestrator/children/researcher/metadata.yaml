@@ -1,0 +1,13 @@
+layer:
+  id: layer.orchestrator.children.researcher
+  name: researcher
+  type: specialist_agent
+  parent: agents/orchestrator/children/
+  path: agents/orchestrator/children/researcher/
+  description: "정보를 수집하고 증거 기반 참고 자료를 정리한다."
+  children:
+    - agent
+    - memory
+  metadata_version: 1
+  schema: "agent-layer"
+  created_at: 2026-09-13T00:00:00Z

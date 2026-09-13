@@ -1,0 +1,21 @@
+{
+  "task_id": "TASK-0001",
+  "parent_task_id": null,
+  "title": "example task",
+  "objective": "describe the task objective",
+  "background": "provide project background",
+  "inputs": [],
+  "allowed_resources": [],
+  "required_protocol_knowledge": [
+    "ReadMe/AGENT_CONSTITUTION.md",
+    "ReadMe/TASK_PROTOCOL.md",
+    "ReadMe/PROTOCOL_001.md"
+  ],
+  "constraints": [],
+  "dependencies": [],
+  "assigned_agent": "orchestrator",
+  "priority": "normal",
+  "acceptance_criteria": [],
+  "expected_output": "",
+  "status": "draft"
+}

@@ -1,0 +1,13 @@
+layer:
+  id: layer.orchestrator.children.planner
+  name: planner
+  type: specialist_agent
+  parent: agents/orchestrator/children/
+  path: agents/orchestrator/children/planner/
+  description: "요구사항을 작업 계획과 분해된 태스크로 전환한다."
+  children:
+    - agent
+    - memory
+  metadata_version: 1
+  schema: "agent-layer"
+  created_at: 2026-09-13T00:00:00Z

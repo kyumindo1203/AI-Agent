@@ -1,0 +1,10 @@
+environment:
+  workspace: /workspaces/AI-Agent/demo
+  protocol_documents:
+    - ReadMe/AGENT_CONSTITUTION.md
+    - ReadMe/TASK_PROTOCOL.md
+    - ReadMe/PROTOCOL_001.md
+  required_protocol_knowledge:
+    - ReadMe/AGENT_CONSTITUTION.md
+    - ReadMe/TASK_PROTOCOL.md
+    - ReadMe/PROTOCOL_001.md

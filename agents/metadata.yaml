@@ -1,0 +1,13 @@
+layer:
+  id: layer.agents
+  name: agents
+  type: root
+  parent: null
+  path: agents/
+  description: "루트 에이전트 계층. 사용자 인터페이스, 오케스트레이터, 그리고 오케스트레이터의 자식 전문 에이전트를 포함한다."
+  children:
+    - orchestrator
+    - secretary
+  metadata_version: 1
+  schema: "agent-layer"
+  created_at: 2026-09-13T00:00:00Z

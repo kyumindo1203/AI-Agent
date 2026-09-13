@@ -1,0 +1,10 @@
+{
+  "error_id": "ERR-YYYYMMDD-NNNN",
+  "task_id": "TASK-YYYYMMDD-NNNN",
+  "agent": "unknown",
+  "failure": "describe failure",
+  "reason": "describe root cause",
+  "current_state": "describe state",
+  "attempted_resolution": [],
+  "required_action": []
+}

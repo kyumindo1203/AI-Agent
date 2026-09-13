@@ -1,0 +1,8 @@
+project_root: /workspaces/AI-Agent
+workflow_root: workflow/projects
+required_protocol_knowledge:
+  - ReadMe/AGENT_CONSTITUTION.md
+  - ReadMe/TASK_PROTOCOL.md
+required_outputs:
+  - markdown
+  - json
